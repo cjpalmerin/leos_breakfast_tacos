@@ -1,0 +1,14 @@
+.oseparator {
+    background: rgb(127,80,94);
+    background: linear-gradient(180deg, rgba(127,80,94,1) 0%, rgba(102,76,82,1) 68%);
+    padding: 8px;
+    border-bottom: 5px solid white;
+
+}
+
+.whole-note {
+    height: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

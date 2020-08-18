@@ -4,6 +4,7 @@ import './App.css';
 import { Navbar } from './Components/Navbar/Navbar'
 import { Jumbotron } from './Components/Jumbotron/Jumbotron'
 import { About } from './Components/About/About'
+import { OSeparator } from './Components/OSeparator/OSeparator'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Jumbotron />
       <About />
+      <OSeparator />
     </div>
   );
 }
