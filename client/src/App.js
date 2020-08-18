@@ -5,6 +5,7 @@ import { Navbar } from './Components/Navbar/Navbar'
 import { Jumbotron } from './Components/Jumbotron/Jumbotron'
 import { About } from './Components/About/About'
 import { OSeparator } from './Components/OSeparator/OSeparator'
+import { Menu } from './Components/Menu/Menu'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Jumbotron />
       <About />
       <OSeparator />
+      <Menu />
     </div>
   );
 }

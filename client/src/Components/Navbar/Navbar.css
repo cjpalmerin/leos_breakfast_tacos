@@ -1,4 +1,4 @@
-.navbar{
+.navibar{
     background: rgb(252,198,101);
     background: linear-gradient(180deg, rgba(252,198,101,1) 0%, rgba(255,87,128,1) 68%);
     border-bottom: 5px solid white;
@@ -18,7 +18,7 @@ ul {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 li {
