@@ -2,13 +2,34 @@
     background: rgb(252,206,89);
     background: linear-gradient(180deg, rgba(252,206,89,1) 0%, rgba(252,183,107,1) 68%);
     padding: 50px 300px;
+    border-bottom: 5px solid white;
+
 }
 
 h2 {
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    margin: 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+
+}
+
+.italics {
+    font-style: italic;
+}
+
+a {
+    text-align: center;
+    font-weight: 700;
+
 }
