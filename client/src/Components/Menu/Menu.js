@@ -2,6 +2,7 @@ import React from 'react';
 import './Menu.css';
 
 import Tacos from '../../images/photo-1518830686998-b8847466b372.jpeg'
+import Tacos2 from '../../images/photo-1579932709647-3a151893f730.jpeg'
 
 export class Menu extends React.Component {
     render() {
@@ -55,9 +56,11 @@ export class Menu extends React.Component {
                             <br />
                             <h3>Those Sides</h3>
                             <ul className="menu-list">
-                                <li>Rice - $1.00</li>
+                                <li>Mexican Rice - $1.00</li>
+                                <li>White Rice - $1.00</li>
                                 <br />
-                                <li>Beans - $1.00</li>
+                                <li>Refried Beans - $1.00</li>
+                                <li>Black Beans - $1.00</li>
                                 <li>Scrambled Eggs - $1.00</li>
                                 <li>Guacamole - $2.75</li>
                                 <li>Chips and Guacamole $3.00</li>
@@ -70,6 +73,10 @@ export class Menu extends React.Component {
 
                         <div className="col-lg-6">
                             <img src={Tacos} alt="Leos Tacos" className="taco-image" />
+                            <br />
+                            <br />
+
+                            <img src={Tacos2} alt="Leos Tacos" className="taco-image" />
                             <br />
                             <br />
 

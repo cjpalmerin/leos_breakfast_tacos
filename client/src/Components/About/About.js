@@ -6,7 +6,7 @@ export class About extends React.Component {
         return (
             <div className="about">
                 <h2>About <span class='italics'> LEOS </span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                <p className="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna 
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
@@ -14,11 +14,11 @@ export class About extends React.Component {
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
                     qui officia deserunt mollit anim id est laborum.</p>
                     <br />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p className="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna. 
                     <br />
                     <br />
-                    <a>Read the Full Story Here &gt;</a></p>
+                    <a className="about-button">Read the Full Story Here &gt;</a></p>
             </div>
         )
     }

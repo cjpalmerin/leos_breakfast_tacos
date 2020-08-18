@@ -6,6 +6,8 @@ import { Jumbotron } from './Components/Jumbotron/Jumbotron'
 import { About } from './Components/About/About'
 import { OSeparator } from './Components/OSeparator/OSeparator'
 import { Menu } from './Components/Menu/Menu'
+import { Music } from './Components/Music/Music'
+
 
 
 function App() {
@@ -16,6 +18,9 @@ function App() {
       <About />
       <OSeparator />
       <Menu />
+      <OSeparator />
+      <Music />
+
     </div>
   );
 }
