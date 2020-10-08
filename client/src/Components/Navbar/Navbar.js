@@ -7,10 +7,8 @@ export class Navbar extends React.Component {
     render() {
         return (
             <div className="navibar">
-                <img className="navlogo center" src={logo} alt="Leos" />
                 <br />
                 <ul>
-                    <li>Home</li>
                     <li>Menu</li>
                     <li>Live Music</li>
                     <li>Contact</li>
