@@ -34,7 +34,8 @@ h3 {
 }
 
 li {
-    display: inline-block
+    display: inline-block;
+    color: white;
 }
 
 .description {

@@ -1,8 +1,13 @@
+.diagonal:before {
+    transform: skewY(-5deg);
+
+}
+
 .about {
-    background: rgb(252,206,89);
-    background: linear-gradient(180deg, rgba(252,206,89,1) 0%, rgba(252,183,107,1) 68%);
-    padding: 50px 300px;
-    border-bottom: 5px solid white;
+    background: rgb(50,39,39);
+    background: linear-gradient(0deg, rgba(50,39,39,1) 0%, rgba(79,59,59,1) 100%);
+    padding: 50px 385px;
+	/* transform: skewY(5deg); */
 
 }
 
@@ -17,7 +22,7 @@ h2 {
 
 .about-p {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     font-family: 'Lato', sans-serif;
     line-height: 1.2;
@@ -31,5 +36,10 @@ h2 {
 .about-button {
     text-align: center;
     font-weight: 700;
+
+}
+
+hr {
+    border-top: 3px solid white;
 
 }

@@ -57,11 +57,15 @@ export class Menu extends React.Component {
                             <h3>Those Sides</h3>
                             <ul className="menu-list">
                                 <li>Mexican Rice - $1.00</li>
+                                <br />
                                 <li>White Rice - $1.00</li>
                                 <br />
                                 <li>Refried Beans - $1.00</li>
+                                <br />
                                 <li>Black Beans - $1.00</li>
+                                <br />
                                 <li>Scrambled Eggs - $1.00</li>
+                                <br />
                                 <li>Guacamole - $2.75</li>
                                 <li>Chips and Guacamole $3.00</li>
                                 <li>Chips and Homemade Salsa $2.00</li>

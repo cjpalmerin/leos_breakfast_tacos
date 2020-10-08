@@ -6,7 +6,7 @@ background: linear-gradient(0deg, rgba(50,39,39,1) 0%, rgba(79,59,59,1) 100%);
 }
 
 
-ul {
+.ulList {
     color: white;
     font-size: 15px;
     text-align: right;
